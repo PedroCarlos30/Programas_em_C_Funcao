@@ -16,10 +16,14 @@ int main(void)
 void mm(int k)
 {
     setlocale(LC_ALL, "Portuguese");
-    if(k >= 18){
-        printf("Você é maior de idade.");
+    //acrescentei a idade > 60 para incluir as pessoas idosas.
+    if(k >= 18 && k <=59){
+        printf("VocÃª Ã© maior de idade.");
+    }
+    else if(k >= 60){
+        printf("VocÃª Ã© uma pessoa idosa.");
     }
     else{
-        printf("Você não é maior de idade.");
+        printf("VocÃª nÃ£o Ã© maior de idade.");
     }
 }
