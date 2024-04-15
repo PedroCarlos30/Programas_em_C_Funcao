@@ -17,9 +17,9 @@ void mm(int k)
 {
     setlocale(LC_ALL, "Portuguese");
     if(k >= 18){
-        printf("Você é maior de idade.");
+        printf("VocÃª Ã© maior de idade.");
     }
     else{
-        printf("Você não é maior de idade.");
+        printf("VocÃª nÃ£o Ã© maior de idade.");
     }
 }
